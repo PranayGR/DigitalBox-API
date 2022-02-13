@@ -2,50 +2,66 @@
 
 > Show all Categories
     > http://localhost:3000/category
+    > https://digital-box-api.herokuapp.com/category
 > Show all Brands
     > http://localhost:3000/brand
+    > https://digital-box-api.herokuapp.com/brand
 > Show all products
     > http://localhost:3000/products
+    > https://digital-box-api.herokuapp.com/products
 
 
 >>>>> Listing Page
 
 > Show Products wrt Category
     > http://localhost:3000/filter/1
+    > https://digital-box-api.herokuapp.com/filter/1
 > Brands Filter
     > http://localhost:3000/filter/1?brand=2
+    > https://digital-box-api.herokuapp.com/filter/1?brand=1
 > Pagination
     > http://localhost:3000/filter/1?skip=0&limit=2
+    > https://digital-box-api.herokuapp.com/filter/1?skip=0&limit=2
 > Cost Filter
     > For Price in Range
         > http://localhost:3000/filter/1?lcost=20000&hcost=50000
+        > https://digital-box-api.herokuapp.com/filter/1?lcost=20000&hcost=50000
     > For Price in ascending or descending
         > http://localhost:3000/filter/1?sort=1
+        > https://digital-box-api.herokuapp.com/filter/1?sort=1
 
 
 >>>>>> Details Page
 
 > Product Detail
     > http://localhost:3000/productDetails/1
+    > https://digital-box-api.herokuapp.com/productDetails/1
 
 
 >>>>>> User Page
 
-> CartItems
+> (post)CartItems
     > http://localhost:3000/cart
-> Wishlist
+    > https://digital-box-api.herokuapp.com/cart
+> (post)Wishlist
     > http://localhost:3000/wishlist
+    > https://digital-box-api.herokuapp.com/wishlist
 > Previos Orders
     > http://localhost:3000/orders
+    > https://digital-box-api.herokuapp.com/orders
 
 
 >>>>>> Order Page
 
 > (post) Place Order
     > http://localhost:3000/PlaceOrder
+    > https://digital-box-api.herokuapp.com/PlaceOrder
 > Order Details
     > http://localhost:3000/orders
-> Update Order
+    > https://digital-box-api.herokuapp.com/orders
+> (put)Update Order
     > http://localhost:3000/updateOrder
-> Delete Order
+    > https://digital-box-api.herokuapp.com/updateOrder
+> (delete)Delete Order
     > http://localhost:3000/deleteOrder
+    > https://digital-box-api.herokuapp.com/deleteOrder
