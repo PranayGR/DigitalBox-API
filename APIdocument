@@ -1,0 +1,51 @@
+>>>>> Homepage
+
+> Show all Categories
+    > http://localhost:3000/category
+> Show all Brands
+    > http://localhost:3000/brand
+> Show all products
+    > http://localhost:3000/products
+
+
+>>>>> Listing Page
+
+> Show Products wrt Category
+    > http://localhost:3000/filter/1
+> Brands Filter
+    > http://localhost:3000/filter/1?brand=2
+> Pagination
+    > http://localhost:3000/filter/1?skip=0&limit=2
+> Cost Filter
+    > For Price in Range
+        > http://localhost:3000/filter/1?lcost=20000&hcost=50000
+    > For Price in ascending or descending
+        > http://localhost:3000/filter/1?sort=1
+
+
+>>>>>> Details Page
+
+> Product Detail
+    > http://localhost:3000/productDetails/1
+
+
+>>>>>> User Page
+
+> CartItems
+    > http://localhost:3000/cart
+> Wishlist
+    > http://localhost:3000/wishlist
+> Previos Orders
+    > http://localhost:3000/orders
+
+
+>>>>>> Order Page
+
+> (post) Place Order
+    > http://localhost:3000/PlaceOrder
+> Order Details
+    > http://localhost:3000/orders
+> Update Order
+    > http://localhost:3000/updateOrder
+> Delete Order
+    > http://localhost:3000/deleteOrder
